@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 	
 	printf("\n\n\t<< TABLA REFERENCIAL >>\n");
 	
-	printf("\n· Menor 18.5  - Bajo peso \n· 18.5 a 24.9 - Normal \n· 25.0 a 29.9 - Sobrepeso \n· mayor a 30  - Obesidad");
+	printf("\nÂ· Menor 18.5  - Bajo peso \nÂ· 18.5 a 24.9 - Normal \nÂ· 25.0 a 29.9 - Sobrepeso \nÂ· mayor a 30  - Obesidad");
 	
 	return 0;
 }
