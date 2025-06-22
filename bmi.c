@@ -6,11 +6,17 @@ int main(int argc, char *argv[]) {
 	
 	printf("\tBienvenido al programa BMI\n");
 	
-	printf("\nIngrese su peso(kg): ");
-	scanf("%f", &peso);
-	
-	printf("Ingrese su altura(mts): ");
-	scanf("%f", &altura);
+	do{
+		printf("\nIngrese su peso(kg): ");
+		scanf("%f", &peso);
+	}
+	while(peso <= 0);
+
+	do{
+		printf("Ingrese su altura(mts): ");
+		scanf("%f", &altura);
+	}
+	while(altura <= 0);
 	
 	indice_corporal = peso / (altura * altura);
 	printf("\nSu indice corporal es: %.1f",indice_corporal);
